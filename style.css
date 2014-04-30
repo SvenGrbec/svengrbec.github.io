@@ -100,13 +100,13 @@ body
 {
     display: block;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #000;
 }
 
     #video iframe
     {
-        background-color: #fff;
-        height: 100%;
+        background-color: #000;
+        height: 95%;
         width: 100%;
         border: none !important;
     }
