@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ludi Kalkulator</title>
+  <meta name="description" content="Kalkulator za svjetlosne bajke.">
+  <meta name="author" content="Sven Grbec">
+
+  <!--link rel="stylesheet" href="css/styles.css"-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+	<form onsubmit="funkcija()">
+	  	Ova stvar<br>
+		<select id="ovastvar">
+		  <option value="prva">prva</option>
+		  <option value="druga">druga</option>
+		  <option value="treca">treca</option>
+		  <option value="cetvrta">cetvrta</option>
+		</select>
+		Ona stvar:<br>
+		<input type="text" name="onastvar" id="onastvar">
+		<br />
+		<input type="submit" value="Izračunaj mi ovo pls">
+	</form>
+
+	<p id="rezultat"></p>
+
+  <script src="funkcije.js"></script>
+</body>
+</html>
