@@ -3,4 +3,5 @@ function funkcija() {
     var onastvar = $("#onastvar").val();
 
     $("#rezultat").text(ovastvar + "  " + onastvar);
+    return false;
 }
