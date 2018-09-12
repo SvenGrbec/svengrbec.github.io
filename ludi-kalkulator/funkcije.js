@@ -3,5 +3,9 @@ function funkcija() {
     var onastvar = $("#onastvar").val();
 
     $("#rezultat").text(ovastvar + "  " + onastvar);
-    return false;
 }
+
+$('#okform').submit(function () {
+ funkcija();
+ return false;
+});
